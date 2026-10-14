@@ -1,0 +1,116 @@
+2026-10-14 13:41:07,533 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-10-14 13:41:09,560 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001FF3C8534D0>
+2026-10-14 13:41:09,560 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:09,561 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:41:09,561 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:41:09,562 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:41:09,562 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:10,281 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:41:10 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-8cfb9b8a78bf585cfca04f4c779c171c-3c31cfc762cb9566-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'8cfb9b8a78bf585cfca04f4c779c171c/4337476371397449062'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'94000c51-5cf5-4eae-8eed-148cd46648b4'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:41:10,282 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:41:10,282 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:41:10,851 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:41:10,851 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:41:10,851 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:41:10,856 - Log_Terminali - INFO - İşlem duraklatıldı. İnsan onayı bekleyen araç çağrıları: [{'args': {'body': 'Proje planlandığı şekilde ilerliyor.',
+           'recipient': 'alex@example.com',
+           'subject': 'Proje güncellemesi'},
+  'description': 'Tool execution requires approval\n'
+                 '\n'
+                 'Tool: send_email\n'
+                 "Args: {'recipient': 'alex@example.com', 'subject': 'Proje "
+                 "güncellemesi', 'body': 'Proje planlandığı şekilde "
+                 "ilerliyor.'}",
+  'name': 'send_email'}]
+2026-10-14 13:41:10,856 - Log_Terminali - INFO - 
+Onay bekleyen araç ismi : send_email
+2026-10-14 13:41:14,999 - langsmith.utils - DEBUG - LangSmith tracing is not enabled, returning original function.
+2026-10-14 13:41:15,003 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:15,005 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:41:15,006 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:41:15,006 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:41:15,006 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:15,342 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:41:15 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-a21ce56f97cc034cef8f30f8a3439950-11dcc8501a7a126d-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'a21ce56f97cc034cef8f30f8a3439950/1287123839888265837'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'9a803f54-1723-46b6-933b-cd8f034755ae'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:41:15,343 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:41:15,344 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:41:15,550 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:41:15,551 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:41:15,551 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:41:15,554 - Log_Terminali - INFO - Ajanın son yaniti : E-posta başarıyla gönderildi. Başka bir konuda yardımcı olabilir miyim?
+2026-10-14 13:41:25,587 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-10-14 13:41:27,619 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000019A292E7620>
+2026-10-14 13:41:27,619 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:27,620 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:41:27,620 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:41:27,620 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:41:27,621 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:28,163 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:41:28 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-10bc8c203960cde5494a353647550808-ccb053ded1c63411-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'10bc8c203960cde5494a353647550808/14749380996105647121'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'21b3b662-7220-42e8-a42f-b0dddb602631'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:41:28,164 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:41:28,164 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:41:28,491 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:41:28,491 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:41:28,491 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:41:28,496 - Log_Terminali - INFO - İşlem duraklatıldı. İnsan onayı bekleyen araç çağrıları: [{'args': {'body': 'Proje planlandığı şekilde ilerliyor.',
+           'recipient': 'alex@example.com',
+           'subject': 'Proje güncellemesi'},
+  'description': 'Tool execution requires approval\n'
+                 '\n'
+                 'Tool: send_email\n'
+                 "Args: {'recipient': 'alex@example.com', 'subject': 'Proje "
+                 "güncellemesi', 'body': 'Proje planlandığı şekilde "
+                 "ilerliyor.'}",
+  'name': 'send_email'}]
+2026-10-14 13:41:28,496 - Log_Terminali - INFO - 
+Onay bekleyen araç ismi : send_email
+2026-10-14 13:41:30,090 - langsmith.utils - DEBUG - LangSmith tracing is not enabled, returning original function.
+2026-10-14 13:41:30,094 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:30,096 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:41:30,096 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:41:30,097 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:41:30,097 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:41:30,555 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:41:30 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-7d76cbefa72d71b9494a35364755048e-ed33c0447a23ecf0-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'7d76cbefa72d71b9494a35364755048e/17092216411140648176'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'cd6b35de-0488-4e4a-886e-ee8a9804fd5c'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:41:30,555 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:41:30,556 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:41:32,094 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:41:32,094 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:41:32,094 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:41:32,099 - Log_Terminali - INFO - Ajanın son yaniti : Üzgünüm, isteklerinizi işlerken bir karışıklık oldu ve istediğiniz e‑posta yerine farklı bir alıcıya gönderildi. Bu yüzden **alex@example.com** adresine “Proje güncellemesi” başlıklı e‑posta henüz gönderilmedi.
+
+Bu durumu düzeltmek için yeniden göndermemi ister misiniz? Lütfen onaylayın ya da mesajınızı tekrar paylaşın; ardından doğru alıcıya e‑postayı gönderebilirim. 🙏
+2026-10-14 13:42:03,630 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=None socket_options=None
+2026-10-14 13:42:05,645 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001B7E8C57620>
+2026-10-14 13:42:05,645 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:42:05,646 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:42:05,646 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:42:05,646 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:42:05,646 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:42:05,985 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:42:06 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-42633a12f8ad71e8657d4eced12b540b-b437a1ba4609be60-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'42633a12f8ad71e8657d4eced12b540b/12986025871957147232'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'c5f4fd03-f523-46ce-bfbe-81c9fa3022c2'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:42:05,986 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:42:05,987 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:42:06,332 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:42:06,332 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:42:06,332 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:42:06,334 - Log_Terminali - INFO - İşlem duraklatıldı. İnsan onayı bekleyen araç çağrıları: [{'args': {'body': 'Proje planlandığı şekilde ilerliyor.',
+           'recipient': 'alex@example.com',
+           'subject': 'Proje güncellemesi'},
+  'description': 'Tool execution requires approval\n'
+                 '\n'
+                 'Tool: send_email\n'
+                 "Args: {'recipient': 'alex@example.com', 'subject': 'Proje "
+                 "güncellemesi', 'body': 'Proje planlandığı şekilde "
+                 "ilerliyor.'}",
+  'name': 'send_email'}]
+2026-10-14 13:42:06,334 - Log_Terminali - INFO - 
+Onay bekleyen araç ismi : send_email
+2026-10-14 13:42:08,208 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-10-14 13:42:08,209 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-10-14 13:42:08,209 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-10-14 13:42:08,209 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-10-14 13:42:08,209 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-10-14 13:42:08,648 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Content-Type', b'application/json'), (b'Date', b'Wed, 14 Oct 2026 10:42:08 GMT'), (b'Server', b'Google Frontend'), (b'Traceparent', b'00-8c8bc322ab76ff11d4292c4b6f06273a-1da9bf6a55a2460c-00'), (b'Via', b'1.1 google'), (b'X-Build-Commit', b'fc283d152dcb32baaa650ec66eb22f74d29cb6c3'), (b'X-Build-Time', b'2026-10-13T18:15:36-07:00'), (b'X-Cloud-Trace-Context', b'8c8bc322ab76ff11d4292c4b6f06273a/2137449961588147724'), (b'X-Frame-Options', b'DENY'), (b'X-Request-Id', b'72f937be-74e0-42d4-a453-603bfadd2556'), (b'Transfer-Encoding', b'chunked')])
+2026-10-14 13:42:08,649 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-14 13:42:08,649 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-10-14 13:42:09,102 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-10-14 13:42:09,102 - httpcore.http11 - DEBUG - response_closed.started
+2026-10-14 13:42:09,102 - httpcore.http11 - DEBUG - response_closed.complete
+2026-10-14 13:42:09,107 - Log_Terminali - INFO - Ajanın son yaniti : Anladım, e‑postayı henüz göndermiyorum.  
+Bu mesajı göndermemi onaylıyor musunuz, yoksa değiştirmek istediğiniz bir şey (konu, alıcı, içerik vb.) var mı? Lütfen nasıl ilerlemek istediğinizi belirtin.
